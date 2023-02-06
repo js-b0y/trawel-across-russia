@@ -1,0 +1,17 @@
+.header__lang-links {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  list-style-type: none;
+  /* padding-top: 16px; */
+  padding-top: 16px;
+  font-family: 'Inter', 'Arial', 'sans-serif';
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-links {
+    padding-top: 10px;
+    width: 62px;
+  }
+}
